@@ -7,6 +7,8 @@ sensors add a safety brake, radar based lead tracking and a dashboard video,
 and every run ends with a metrics report (collisions, gaps, comfort, stop
 position, PASS/FAIL).
 
+![demo](media/carla_driving.gif)
+
 ## Run it
 
 1. Start CARLA (the Unreal Editor with Play pressed, or a packaged build).
@@ -46,13 +48,11 @@ Ctrl+C stops cleanly and puts the simulator back into normal mode.
   acceleration, deceleration and lateral acceleration, emergency braking time.
 * `trajectory.png`, `controls.png`, `trajectory.txt`.
 
+![demo](media/carla_driving2.gif)
+
 ## How it works
 
-Details are in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). In short:
-
-```
-route -> behaviour (cruise / approach stop / hold) -> lane-offset paths -> speed profile -> Stanley + PI controller
-              lead car, stop line                  collision check          limits, stop, gap
+![demo](media/Carla Working.png)
 ```
 
 `offline_sim.py` runs the whole planning and control stack against a simple
