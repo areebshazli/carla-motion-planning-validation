@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+controller_output/frames/
+controller_output/dashboard_frames/
+*.log
+.vscode/

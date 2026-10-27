@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pillow
+imageio
+imageio-ffmpeg
+# The carla package is not on PyPI for 0.9.16+ source builds. Install the wheel you built:
+#   python -m pip install <carla folder>\PythonAPI\carla\dist\carla-*.whl
