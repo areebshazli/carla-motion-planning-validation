@@ -51,7 +51,7 @@ Ctrl+C stops cleanly and puts the simulator back into normal mode.
 ![demo](media/carla_driving2.gif)
 
 ## How it works
-
+```
 ![demo](media/Carla Working.png)
 ```
 
